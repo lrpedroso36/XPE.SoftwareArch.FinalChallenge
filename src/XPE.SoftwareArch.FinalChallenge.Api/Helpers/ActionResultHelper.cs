@@ -3,9 +3,9 @@ using XPE.SoftwareArch.FinalChallenge.Api.Models.Extensions;
 using XPE.SoftwareArch.FinalChallenge.Application.Exceptions;
 using XPE.SoftwareArch.FinalChallenge.Domain.Exceptions;
 
-namespace XPE.SoftwareArch.FinalChallenge.Api.Controllers.Helpers;
+namespace XPE.SoftwareArch.FinalChallenge.Api.Helpers;
 
-public static class ControllerHelper
+public static class ActionResultHelper
 {
     public static async Task<ActionResult> ExecuteWithHandlingAsync(Func<Task<ActionResult>> action)
     {

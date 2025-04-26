@@ -1,9 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using XPE.SoftwareArch.FinalChallenge.Api.Controllers.Helpers;
-using XPE.SoftwareArch.FinalChallenge.Api.Models.Extensions;
 using XPE.SoftwareArch.FinalChallenge.Api.Models.ProductsModels;
 using XPE.SoftwareArch.FinalChallenge.Api.Models.SharedModels;
-using XPE.SoftwareArch.FinalChallenge.Application.ProductUseCases.Absctrations;
+using XPE.SoftwareArch.FinalChallenge.Api.Services.Absctractions;
 
 namespace XPE.SoftwareArch.FinalChallenge.Api.Controllers;
 
@@ -11,9 +9,9 @@ namespace XPE.SoftwareArch.FinalChallenge.Api.Controllers;
 [Route("v1/api/products")]
 public class ProductController : ControllerBase
 {
-    private readonly IProductUseCase _useCase;
+    private readonly IProductService _useCase;
 
-    public ProductController(IProductUseCase useCase)
+    public ProductController(IProductService useCase)
     {
         _useCase = useCase;
     }
@@ -33,12 +31,7 @@ public class ProductController : ControllerBase
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ResponseErrorViewModel))]
     public async Task<ActionResult> PostAsync([FromBody] ProductCreateViewModel viewModel, CancellationToken cancellation)
     {
-        return await ControllerHelper.ExecuteWithHandlingAsync(async () =>
-        {
-            var input = viewModel.ToInput();
-            await _useCase.CreateAsync(input, cancellation);
-            return Created("", viewModel);
-        });
+        return await _useCase.PostAsync(viewModel, cancellation);
     }
 
     /// <summary>
@@ -59,13 +52,7 @@ public class ProductController : ControllerBase
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ResponseErrorViewModel))]
     public async Task<ActionResult> PutAsync([FromQuery] Guid id, [FromBody] ProductUpdateViewModel viewModel, CancellationToken cancellation)
     {
-        return await ControllerHelper.ExecuteWithHandlingAsync(async () =>
-        {
-            viewModel.Id = id;
-            var input = viewModel.ToInput();
-            await _useCase.UpdateAsync(input, cancellation);
-            return Ok(viewModel);
-        });
+        return await _useCase.UpdateAsync(id, viewModel, cancellation);  
     }
 
     /// <summary>
@@ -83,11 +70,7 @@ public class ProductController : ControllerBase
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ResponseErrorViewModel))]
     public async Task<ActionResult> GetByIdAsync([FromQuery] Guid id, CancellationToken cancellation)
     {
-        return await ControllerHelper.ExecuteWithHandlingAsync(async () =>
-        {
-            var output = await _useCase.GetByIdAsync(id, cancellation);
-            return Ok(output.ToViewModel());
-        });
+        return await _useCase.GetByIdAsync(id, cancellation);   
     }
 
     /// <summary>
@@ -105,11 +88,7 @@ public class ProductController : ControllerBase
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ResponseErrorViewModel))]
     public async Task<ActionResult> GetByNameAsync([FromQuery] string name, CancellationToken cancellation)
     {
-        return await ControllerHelper.ExecuteWithHandlingAsync(async () =>
-        {
-            var output = await _useCase.GetByNameAsync(name, cancellation);
-            return Ok(output.ToViewModel());
-        });
+        return await _useCase.GetByNameAsync(name, cancellation);
     }
 
     /// <summary>
@@ -124,11 +103,7 @@ public class ProductController : ControllerBase
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ResponseErrorViewModel))]
     public async Task<ActionResult> GetAllAsync(CancellationToken cancellation)
     {
-        return await ControllerHelper.ExecuteWithHandlingAsync(async () =>
-        {
-            var outputs = await _useCase.GetAllAsync(cancellation);
-            return Ok(outputs.ToViewModels());
-        });
+       return await _useCase.GetAllAsync(cancellation);
     }
 
     /// <summary>
@@ -146,11 +121,7 @@ public class ProductController : ControllerBase
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ResponseErrorViewModel))]
     public async Task<ActionResult> DeleteAsync([FromQuery] Guid id, CancellationToken cancellation)
     {
-        return await ControllerHelper.ExecuteWithHandlingAsync(async () =>
-        {
-            await _useCase.DeleteAsync(id, cancellation);
-            return NoContent();
-        });
+        return await _useCase.DeleteAsync(id, cancellation);
     }
 
     /// <summary>
@@ -165,10 +136,6 @@ public class ProductController : ControllerBase
     [ProducesResponseType(StatusCodes.Status500InternalServerError, Type = typeof(ResponseErrorViewModel))]
     public async Task<ActionResult> CountAsync(CancellationToken cancellation)
     {
-        return await ControllerHelper.ExecuteWithHandlingAsync(async () =>
-        {
-            var result = await _useCase.CountAsync(cancellation);
-            return Ok(new ProductCountViewModel(result));
-        });
+       return await _useCase.CountAsync(cancellation);
     }
 }

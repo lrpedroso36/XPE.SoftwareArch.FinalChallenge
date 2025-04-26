@@ -1,4 +1,6 @@
 using XPE.SoftwareArch.FinalChallenge.Api.Extensions;
+using XPE.SoftwareArch.FinalChallenge.Api.Services;
+using XPE.SoftwareArch.FinalChallenge.Api.Services.Absctractions;
 using XPE.SoftwareArch.FinalChallenge.Ioc;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -9,6 +11,7 @@ builder.Services.AddCustomSwaggerGen();
 builder.Services.AddEndpointsApiExplorer();
 
 // Dependency injections
+builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
