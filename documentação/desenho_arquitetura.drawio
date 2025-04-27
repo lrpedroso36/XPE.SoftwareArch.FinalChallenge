@@ -1,35 +1,35 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2">
   <diagram name="Página-1" id="K1bFARC51PKLR_bZd6pp">
-    <mxGraphModel dx="1785" dy="1051" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1428" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="JciWsBswKhxT2vdmzXe9-74" value="Arquitetura da aplicação - Proposta futura expansões" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" parent="1" vertex="1">
-          <mxGeometry x="850" y="362.5" width="810" height="450" as="geometry" />
+          <mxGeometry x="9" y="670" width="810" height="450" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-31" value="Arquitetura da aplicação" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=center;" parent="1" vertex="1">
-          <mxGeometry x="30" y="362.5" width="810" height="450" as="geometry" />
+          <mxGeometry x="9" y="110" width="810" height="450" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-24" value="XPE.SoftwareArch.&lt;div&gt;FinalChallenge.&lt;/div&gt;&lt;div&gt;Infra&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;verticalAlign=bottom;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="640" y="527.5" width="150" height="240" as="geometry" />
+          <mxGeometry x="619" y="275" width="150" height="240" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-23" value="XPE.SoftwareArch.&lt;div&gt;FinalChallenge.&lt;/div&gt;&lt;div&gt;Domain&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;verticalAlign=bottom;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="455" y="527.5" width="150" height="240" as="geometry" />
+          <mxGeometry x="434" y="275" width="150" height="240" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-22" value="XPE.SoftwareArch.&lt;br&gt;FinalChallenge.&lt;div&gt;Application&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;verticalAlign=bottom;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="255" y="527.5" width="150" height="240" as="geometry" />
+          <mxGeometry x="234" y="275" width="150" height="240" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-17" value="XPE.SoftwareArch.&lt;div&gt;FinalChallenge.&lt;/div&gt;&lt;div&gt;Api&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;verticalAlign=bottom;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="70" y="527.5" width="150" height="240" as="geometry" />
+          <mxGeometry x="49" y="275" width="150" height="240" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="JciWsBswKhxT2vdmzXe9-3" target="JciWsBswKhxT2vdmzXe9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-3" value="Product&lt;br&gt;API Rest" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="90" y="617.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="69" y="365" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-4" value="Product&lt;br&gt;UseCase" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="280" y="617.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="259" y="365" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="JciWsBswKhxT2vdmzXe9-5" target="JciWsBswKhxT2vdmzXe9-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -38,23 +38,23 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-5" value="Product&lt;div&gt;Aggregate&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="617.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="459" y="365" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-6" value="Product&lt;br&gt;Data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="670" y="617.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="649" y="365" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;flowAnimation=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="139.5" y="447.5" as="sourcePoint" />
-            <mxPoint x="139.5" y="617.5" as="targetPoint" />
+            <mxPoint x="118.5" y="195" as="sourcePoint" />
+            <mxPoint x="118.5" y="365" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="139.5" y="467.5" />
-              <mxPoint x="139.5" y="467.5" />
+              <mxPoint x="118.5" y="215" />
+              <mxPoint x="118.5" y="215" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-7" value="&lt;span data-end=&quot;595&quot; data-start=&quot;571&quot;&gt;XPE.SoftwareArch.FinalChallenge.Ioc&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="70" y="407.5" width="720" height="90" as="geometry" />
+          <mxGeometry x="49" y="155" width="720" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.361;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="JciWsBswKhxT2vdmzXe9-4" target="JciWsBswKhxT2vdmzXe9-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -68,29 +68,26 @@
         <mxCell id="JciWsBswKhxT2vdmzXe9-27" value="Desenho de arquitetura" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;" parent="1" vertex="1">
           <mxGeometry x="20" y="10" width="230" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JciWsBswKhxT2vdmzXe9-30" value="&lt;div style=&quot;line-height: 80%;&quot;&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 80%;&quot;&gt;&lt;span style=&quot;font-size: 13px; text-wrap-mode: nowrap;&quot;&gt;Sobre a arquitetura&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px; line-height: 80%;&quot;&gt;&lt;font style=&quot;font-size: 13px; line-height: 80%;&quot;&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;Professor, gostaria de adicionar alguns pontos para a utilização da&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot; data-start=&quot;176&quot; data-end=&quot;198&quot;&gt;Clean Architecture&lt;/span&gt;&lt;span style=&quot;text-wrap-mode: nowrap; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-weight: normal;&quot;&gt;:&lt;/span&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p style=&quot;text-wrap-mode: nowrap;&quot; data-start=&quot;108&quot; data-end=&quot;199&quot; class=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px; line-height: 80%;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Para a estruturação da solução, optei por utilizar visando a facilidade da expansão do domínio e na&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;criação de novos, considerando que&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap;&quot; data-start=&quot;108&quot; data-end=&quot;199&quot; class=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px; line-height: 80%;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;atualmente todos os softwares já nascem com a premissa de ser incremental.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Outro ponto que gostaria de destacar é a flexibilidade para&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap;&quot; data-start=&quot;108&quot; data-end=&quot;199&quot; class=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px; line-height: 80%;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;adicionar novas formas de comunicação.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Na proposta atual, o caso de uso está sendo chamado por uma&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-start=&quot;571&quot; data-end=&quot;583&quot;&gt;API Rest&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;mas fica flexível para&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap;&quot; data-start=&quot;108&quot; data-end=&quot;199&quot; class=&quot;&quot;&gt;&lt;font style=&quot;font-size: 13px; line-height: 80%;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ser chamado por uma apresentação do tipo&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-start=&quot;649&quot; data-end=&quot;669&quot;&gt;aplicativo móvel&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ou até mesmo da camada de aplicação para dentro ser um&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot; data-start=&quot;726&quot; data-end=&quot;736&quot;&gt;pacote&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;, &lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;por exemplo,&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 13px; line-height: 80%;&quot;&gt;e o melhor de tudo:&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 13px; line-height: 80%;&quot; data-start=&quot;772&quot; data-end=&quot;813&quot;&gt;sem mudar nada no &quot;core&quot; da aplicação&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); font-size: 13px; line-height: 80%;&quot;&gt;.&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;text-wrap-mode: nowrap;&quot; data-start=&quot;108&quot; data-end=&quot;199&quot; class=&quot;&quot;&gt;&lt;span style=&quot;font-size: 13px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); line-height: 80%;&quot;&gt;colo ao lado um diagrama para exemplicicar os pontos de expansão, que justifica mais ainda a escolha&lt;br&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: wrap;&quot;&gt;&lt;br&gt;Vale a pena mencionar que, em nenhum momento na proposta, eu deixei de abordar o conceito de &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: wrap;&quot; data-end=&quot;221&quot; data-start=&quot;214&quot;&gt;MVC&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: wrap;&quot;&gt;. Porém, acabei reservando&lt;br&gt;&lt;br&gt;o&amp;nbsp;padrão para ser implementado na camada de &lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: wrap;&quot; data-end=&quot;304&quot; data-start=&quot;292&quot;&gt;API Rest&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: wrap;&quot;&gt;, porque na minha opinião, uma arquitetura não invalida a outra, elas se &lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: wrap;&quot;&gt;&lt;br&gt;complementam.&amp;nbsp;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 13px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: wrap;&quot;&gt;No meu ponto de vista, para as camadas de apresentação, o padrão &lt;/span&gt;&lt;span style=&quot;font-size: 13px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: wrap;&quot; data-end=&quot;470&quot; data-start=&quot;463&quot;&gt;MVC&lt;/span&gt;&lt;span style=&quot;font-size: 13px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); text-wrap-mode: wrap;&quot;&gt; fica melhor empregado.&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;fillColor=default;strokeColor=default;strokeWidth=1;perimeterSpacing=2;spacingTop=-12;spacing=9;spacingLeft=3;spacingBottom=0;spacingRight=0;" parent="1" vertex="1">
-          <mxGeometry x="30" y="50" width="810" height="300" as="geometry" />
-        </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-32" value="XPE.SoftwareArch.&lt;div&gt;FinalChallenge.&lt;/div&gt;&lt;div&gt;Infra&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;verticalAlign=bottom;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="1452" y="522.5" width="150" height="255" as="geometry" />
+          <mxGeometry x="611" y="830" width="150" height="255" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-33" value="XPE.SoftwareArch.&lt;div&gt;FinalChallenge.&lt;/div&gt;&lt;div&gt;Domain&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;verticalAlign=bottom;strokeColor=#d6b656;" parent="1" vertex="1">
-          <mxGeometry x="1270" y="520.5" width="150" height="255" as="geometry" />
+          <mxGeometry x="429" y="828" width="150" height="255" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-34" value="XPE.SoftwareArch.&lt;br&gt;FinalChallenge.&lt;div&gt;Application&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;verticalAlign=bottom;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="1085" y="517.5" width="150" height="260" as="geometry" />
+          <mxGeometry x="244" y="824" width="150" height="260" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="JciWsBswKhxT2vdmzXe9-35" target="JciWsBswKhxT2vdmzXe9-34" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-35" value="XPE.SoftwareArch.&lt;div&gt;FinalChallenge.&lt;/div&gt;&lt;div&gt;Api&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;verticalAlign=bottom;strokeColor=#82b366;" parent="1" vertex="1">
-          <mxGeometry x="900" y="515.5" width="150" height="262" as="geometry" />
+          <mxGeometry x="59" y="823" width="150" height="262" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-37" value="API Rest" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="557.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="79" y="865" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-38" value="Product&lt;br&gt;UseCase" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1110" y="557.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="269" y="865" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="JciWsBswKhxT2vdmzXe9-41" target="JciWsBswKhxT2vdmzXe9-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -99,27 +96,27 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-41" value="Client&lt;div&gt;Aggregate&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1295" y="651.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="454" y="959" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-42" value="Product&lt;br&gt;Data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1477" y="557.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="636" y="865" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="JciWsBswKhxT2vdmzXe9-44" target="JciWsBswKhxT2vdmzXe9-35" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="975" y="507.5" />
-              <mxPoint x="975" y="507.5" />
+              <mxPoint x="134" y="815" />
+              <mxPoint x="134" y="815" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-44" value="&lt;span data-end=&quot;595&quot; data-start=&quot;571&quot;&gt;XPE.SoftwareArch.FinalChallenge.Ioc&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="900" y="392.5" width="700" height="90" as="geometry" />
+          <mxGeometry x="59" y="700" width="700" height="90" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-48" value="Aplicativo&lt;br&gt;móvel" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="920" y="648.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="79" y="956" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-58" value="Client&lt;br&gt;UseCase" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1110" y="650.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="269" y="959" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="JciWsBswKhxT2vdmzXe9-59" target="JciWsBswKhxT2vdmzXe9-42" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -128,10 +125,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-59" value="Product&lt;div&gt;Aggregate&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1295" y="557.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="454" y="865" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-60" value="Client&lt;br&gt;Data" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1476" y="651.5" width="100" height="60" as="geometry" />
+          <mxGeometry x="635" y="959" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.896;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="JciWsBswKhxT2vdmzXe9-32" target="JciWsBswKhxT2vdmzXe9-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -141,9 +138,6 @@
         </mxCell>
         <mxCell id="JciWsBswKhxT2vdmzXe9-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.371;entryY=0.989;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="JciWsBswKhxT2vdmzXe9-34" target="JciWsBswKhxT2vdmzXe9-44" edge="1">
           <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="JciWsBswKhxT2vdmzXe9-77" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Information.svg;" parent="1" vertex="1">
-          <mxGeometry x="157" y="54" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

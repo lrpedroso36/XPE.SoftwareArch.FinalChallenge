@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XPE.SoftwareArch.FinalChall
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XPE.SoftwareArch.FinalChallenge.Ioc", "src\XPE.SoftwareArch.FinalChallenge.Ioc\XPE.SoftwareArch.FinalChallenge.Ioc.csproj", "{1AE99D8B-796D-4410-AA72-7B4B09113D73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XPE.SoftwareArch.FinalChallenge.Infra", "src\XPE.SoftwareArch.FinalChallenge.Infra\XPE.SoftwareArch.FinalChallenge.Infra.csproj", "{19286E3D-49E1-498B-A2F5-F51B11ADA2AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XPE.SoftwareArch.FinalChallenge.Infra", "src\XPE.SoftwareArch.FinalChallenge.Infra\XPE.SoftwareArch.FinalChallenge.Infra.csproj", "{19286E3D-49E1-498B-A2F5-F51B11ADA2AE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
